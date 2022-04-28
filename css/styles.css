@@ -1,0 +1,97 @@
+body {
+    background-color: rgba(0, 0, 0, 0.925);
+    background-image: url(../img/bck.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: cover;
+}
+
+.Loic,
+.Selena,
+.Paulo,
+.Raw {
+    width: 100%;
+    margin: 14px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.Loic {
+    background-color: rgba(26, 255, 0, 0.3);
+    backdrop-filter: blur(0.12px);
+}
+
+.Selena {
+    background-color: rgba(255, 0, 225, 0.3);
+    backdrop-filter: blur(0.12px);
+}
+
+.Paulo {
+    background-color: rgba(255, 255, 0, 0.3);
+    backdrop-filter: blur(0.12px);
+}
+
+.Raw {
+    background-color: rgba(0, 255, 234, 0.3);
+    backdrop-filter: blur(0.12px);
+}
+
+.Artista {
+    width: auto;
+    height: 190px;
+    color: white;
+    text-align: center;
+    margin: 20px auto;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 20px 20px 20px solid rgba(0, 0, 0, 0.9);
+}
+
+.Artista h1 {
+    box-shadow: 20px 20px 20px solid rgba(0, 0, 0, 0.9);
+}
+
+.cont {
+    width: 95%;
+    z-index: -1px;
+    display: flex;
+    height: 190px;
+    overflow: scroll;
+    overflow-y: hidden;
+    margin: 9px 0;
+    text-align: center;
+}
+
+::-webkit-scrollbar {
+    background-color: rgba(255, 255, 0, 0.341);
+    height: 2.4px;
+    width: 0;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgba(255, 255, 255, 0.46);
+}
+
+.main {
+    width: 310px;
+    height: 160px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 8px;
+    float: left;
+}
+
+.video {
+    width: 310px;
+    height: 160px;
+    z-index: 2px;
+    padding: 0 8px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
